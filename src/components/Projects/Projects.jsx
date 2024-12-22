@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='py-12 px-8 flex justify-between flex-wrap gap-5'>
             <ProjectCard title="Shopping website" Demo="https://sdivyasravani.github.io/Shopping-Webpage/" code="https://github.com/SDivyaSravani/Shopping-Webpage" main="Created a basic shopping website using HTML, CSS, and Bootstrap involves designing a simple layout that includes key elements like a navigation bar, product listings, a shopping cart, and a footer. "  banner={bannerImg} />
             <ProjectCard title="Crypto Price Website" Demo="https://sdivyasravani.github.io/Crypto_Price/" code="https://github.com/SDivyaSravani/Crypto_Price" main="Created a basic Crypto Price Website using React" banner={crypto} />
-            <ProjectCard title="Portfolio" Demo="" code="" main="I have developed my portfolio website utilizing React and Tailwind CSS, showcasing my skills and projects in a dynamic, responsive layout." banner={port} />
+            <ProjectCard title="Portfolio" Demo="https://sdivyasravani.github.io/Profile/" code="https://github.com/SDivyaSravani/Profile" main="I have developed my portfolio website utilizing React and Tailwind CSS, showcasing my skills and projects in a dynamic, responsive layout." banner={port} />
         </div>
     </div>
   )
