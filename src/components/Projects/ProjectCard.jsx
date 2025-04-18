@@ -5,7 +5,7 @@ const ProjectCard = ({ title, main, banner, Demo, code }) => {
     <div className='w-full max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-md p-4 md:p-6 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl flex flex-col'>
       
       {/* Responsive margin-bottom: mb-0 for default, mb-10 only on lg+ */}
-      <div className='h-40 mb-3 lg:mb-8'>
+      <div className='h-40 mb-3 lg:mb-5'>
         <img className='p-4 rounded-3xl' src={banner} alt={title} />
       </div>
 
